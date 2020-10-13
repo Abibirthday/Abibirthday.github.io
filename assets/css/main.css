@@ -415,7 +415,6 @@ article {
   margin-bottom: 5em;
 }
 
-
 section > :last-child,
 article > :last-child,
 section:last-child,
@@ -493,7 +492,7 @@ article:last-child {
 }
 
 .box :last-child {
-  margin-bottom: 0;
+  margin-bottom: 01;
 }
 
 .box.style1 {
@@ -514,7 +513,7 @@ article:last-child {
 
 .box.style1 .image img {
   position: absolute;
-  top: 0;
+  top: 50;
   height: 100%;
   width: auto;
 }
@@ -793,27 +792,20 @@ body.is-preload #header footer {
   height: 100vh;
 }
 
-.greet{
+.greet {
   position: absolute;
 }
 
 .greet.first {
-
-top: 40%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
 
 .greet.second {
-
   top: 60%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
-
