@@ -2,7 +2,7 @@ const lettersz = document.querySelectorAll(".second");
 
 const appearOptionz = {
   threshold: 1,
-  rootMargin: "0px 0px -100px 0px",
+  rootMargin: "0px 0px 0px 0px",
 };
 
 const appearOnScrollsz = new IntersectionObserver(function (

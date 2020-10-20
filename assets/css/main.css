@@ -508,7 +508,7 @@ article:last-child {
   position: absolute;
   top: 24.5rem;
   left: 50%;
-  height: 5.5rem;
+  height:15rem;
   border-left: solid 1rem #545454;
   z-index: 0;
   -webkit-transform: scaleY(1.5);
@@ -522,7 +522,7 @@ article:last-child {
   position: absolute;
   top: -6rem;
   left: 50%;
-  height: 6rem;
+  height: 20vh;
   border-left: solid 1rem #545454;
   z-index: 0;
   -webkit-transform: scaleY(1.5);
@@ -902,7 +902,7 @@ body.is-preload #header footer {
   font-family: "Noto-serif";
   color: black;
   text-align: center;
-
+  opacity: 0;
 }
 
 /* Boxes */
