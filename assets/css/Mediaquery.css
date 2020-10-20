@@ -140,6 +140,7 @@
   h2 {
     font-size: 2rem;
     letter-spacing: 2px;
+    font-size: 10vw;
   }
   /* Header */
   .intro-text {
@@ -169,36 +170,45 @@
     top: 59%;
     margin: 0;
     white-space: normal;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -6%);
   }
 
   /* Box */
   .box {
     box-shadow: 0.4rem 0.4rem #d9d9d9;
     top: -13rem;
-    max-height: 70vh;
+    max-height: auto;
 
     position: relative;
     transform-style: preserve-3d;
+    max-width: 95%;
+
   }
   .box:after {
-    top: 28.1rem;
-    height: 9rem;
+    top: 100%;
+    height: 15vh;
     left: 50%;
     padding-right: 6rem;
     border-left: solid 0.5rem #545454;
+    -webkit-transform: scaleY(1.5);
+    transform: scaleY(1.5);
     transform: translateZ(-1px);
+    
   }
   .box:before {
-    width: 45px;
-    height: 5.6rem;
-    top: -21%;
-    background-size: 45px 33px;
+    height: 30vh;
+    top: -20%;
     border-left: solid 0.5rem #545454;
     left: 50%;
+    padding-right: 6rem;
+    -webkit-transform: scaleY(1.5);
+    transform: scaleY(1.5);
     transform: translateZ(-1px);
   }
   .box.style1 {
-    width: 95%;
+    width: 93%;
     text-align: center;
     height: 70%;
   }
@@ -211,8 +221,8 @@
   .box.style1 .image img {
     position: relative;
     width: 100%;
-    max-width: 100%;
-    max-height: 25%;
+    max-height: auto;
+    max-width: 100% !important;
   }
   .box.style1 .inner {
     margin: 0 !important;
@@ -223,8 +233,15 @@
     width: 50%;
     align-items: center;
   }
+  img.bg-blur.image.fit {
+    display: none;
+  }
+
   #header header .line::after {
     padding-right: 75vw;
+    
+    -webkit-transform: scaleY(1.5);
+    transform: scaleY(1.5);
   }
   #too {
     font-size: 9rem;
@@ -239,7 +256,15 @@
   /* Numbers */
   .numeral {
     font-size: 2rem;
-    top: -45%;
+    font-size: 10vw;
+    top: -43vh;
+  }
+  #dos {
+    transform: translateY(-100%);
+    top: -22vh;
+  }
+  #tres {
+    top: -45vh;
   }
   h2 {
     line-height: 1.3rem;
@@ -249,13 +274,16 @@
   .textss {
     font-size: 4rem;
     top: 40%;
-    left: 53%;
+    left: 51%;
   }
   .para {
     font-size: 1.3rem;
-    line-height: 1rem;
+    line-height: 3vh;
     position: relative;
-    top: 2.2rem;
+    top: 1.6rem;
+  }
+  .title {
+    top: 0;
   }
   .line {
     padding: 0;
@@ -266,18 +294,53 @@
     margin: 0;
   }
   .porth {
-    font-size: 1.3rem;
-    line-height: 1.8rem;
+    font-size: 5vw;
+    line-height: 8vh;
     white-space: normal;
+    letter-spacing: .1rem;
+    font-size: 10vw;
+    transform: translateY(10vh);
+  }
+  .post-one {
+    transform:translateY(-100%) ;
+    top: 7vh;
+    font-size: 3.6vh;
   }
 
+  #post-three {
+    transform: translateY(-100%);
+    top:-6vh
+  }
+  .post-four {
+    transform: translateY(-100%);
+    top: 8vh;
+  }
+
+  #cinco {
+    transform: translateY(-30%);
+    top: -50vh;
+  }
+  #kwatro {
+    transform: translateY(-50%);
+    top: -60vh;
+  }
+  .una {
+    transform: translateY(-100%);
+    top: -5vh;
+    font-size: 12vw;
+  }
+  .post-five {
+    transform: translateY(-100%);
+    top: 15vh;
+  }
   /* Final Line */
   .final:before {
     content: "";
-    top: -18.3rem;
+    top: 26vh;
     left: 50%;
-    height: 30rem;
+    height: 75vh;
     border-left: solid 0.5rem #545454;
+    transform: translateY(-100%);
     z-index: 0;
   }
   .inner br {

@@ -454,6 +454,7 @@ article:last-child {
 .image {
   display: inline-block;
   border: 0;
+  position: relative;
 }
 
 .image img {
@@ -510,6 +511,8 @@ article:last-child {
   height: 5.5rem;
   border-left: solid 1rem #545454;
   z-index: 0;
+  -webkit-transform: scaleY(1.5);
+    transform: scaleY(1.5);
   transform: translateZ(-1px);
 }
 
@@ -522,7 +525,10 @@ article:last-child {
   height: 6rem;
   border-left: solid 1rem #545454;
   z-index: 0;
+  -webkit-transform: scaleY(1.5);
+    transform: scaleY(1.5);
   transform: translateZ(-1px);
+  overflow: hidden;
 }
 
 .box :last-child {
@@ -624,12 +630,15 @@ article:last-child {
   display: block;
   border-top: solid 0.8rem rgba(0, 0, 0);
   margin: 9rem 10 0.8em 0;
-  left: -13%;
+  left: -20vw;
+  transform: translateX(-40%);
   padding-right: 83vw;
   max-width: 80%;
   top: 5rem;
   position: relative;
   overflow: hidden;
+  -webkit-transform: scaleY(1.5);
+    transform: scaleY(1.5);
 }
 
 #header header p {
@@ -643,9 +652,9 @@ article:last-child {
   text-align: end;
   margin-right: 12.5rem;
   position: absolute;
-  top: 68%;
+  top: 50%;
   left: 70%;
-  transform: translate(-70%, -6%);
+  transform: translate(-70%, -50%);
   white-space: nowrap;
 }
 
@@ -800,6 +809,8 @@ body.is-preload #header footer {
   font-family: "Abhaya Libre", serif;
   text-shadow: none;
   color: black;
+  position: relative;
+  top: -15vh;
 }
 
 .final {
@@ -815,11 +826,13 @@ body.is-preload #header footer {
   content: "";
   display: block;
   position: absolute;
-  top: -5em;
+  top: 33vh;
   left: 50%;
-  height: 28rem;
+  height: 25rem;
   border-left: solid 1rem #545454;
   z-index: 0;
+  transform: translateY(-100%);
+
 }
 
 .textss {
@@ -883,20 +896,21 @@ body.is-preload #header footer {
 }
 
 .numeral {
-  position: absolute;
-  left: 50%;
-
-  top: -90%;
-  transform: translate(-50%, 90%);
+  position: relative;
   font-size: 5rem;
+  transform: translate(0%, -170%);
   font-family: "Noto-serif";
   color: black;
+  text-align: center;
+
 }
 
 /* Boxes */
 .porth {
-  font-size: 3.5rem;
-  line-height: 3.6rem;
+  font-size: 4vw;
+  line-height: 7.4vh;
+  position: relative;
+  top: -22vh;
 }
 
 /* Backgrounds */
@@ -912,4 +926,9 @@ body.is-preload #header footer {
   max-width: 50%;
   position: absolute;
   display: block;
+}
+
+.title {
+  top: -20vh;
+  position: relative;
 }
