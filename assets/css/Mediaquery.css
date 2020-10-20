@@ -257,14 +257,14 @@
   .numeral {
     font-size: 2rem;
     font-size: 10vw;
-    top: -43vh;
+    top: -50vh;
   }
   #dos {
     transform: translateY(-100%);
-    top: -22vh;
+    top: -25vh;
   }
   #tres {
-    top: -45vh;
+    top: -53vh;
   }
   h2 {
     line-height: 1.3rem;
@@ -318,11 +318,11 @@
 
   #cinco {
     transform: translateY(-30%);
-    top: -50vh;
+    top: -60vh;
   }
   #kwatro {
     transform: translateY(-50%);
-    top: -60vh;
+    top: -69vh;
   }
   .una {
     transform: translateY(-100%);
